@@ -1,0 +1,14 @@
+// SETUP
+@import './setup/_typography.scss';
+@import 'setup/_functions.scss';
+
+// // BASICS
+@import 'basics/_base.scss';
+
+// // COMPONENTS
+
+// // VIEWS
+
+@import './views/about.scss';
+@import './views/catalog.scss';
+@import './views/home.scss';
