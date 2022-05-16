@@ -42,7 +42,7 @@ export default {
       if (!this.filterBy) return this.games;
       const regex = new RegExp(this.filterBy.name, 'i');
 
-      return this.games.filter(game => regex.test(game.title));
+      return this.games.filter(game => regex.test(game.title) && this.filterBy.category === game.genre);
 
     },
     categories() {
