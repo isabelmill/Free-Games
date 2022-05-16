@@ -1,3 +1,22 @@
-.games {
-    background-color: bisque;
+.home {
+    background-color: #020120;
+    color: white;
+    padding: 30px 0 60px 0;
+    .games{
+        display: flex;
+        cursor: pointer;
+        flex-wrap: wrap;
+        gap: 20px;
+        align-items: center;
+        justify-content: center;
+        .game{
+            background-color: #0d0611;
+            transition: transform .2s;
+            text-align: center;
+            border-radius: 3px;
+            &:hover{
+                transform: scale(1.1);
+            }
+        }
+    }
 }

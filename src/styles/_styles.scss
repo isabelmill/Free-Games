@@ -7,9 +7,12 @@
 @import 'basics/mq.scss';
 
 // // COMPONENTS
+@import './components/filter.scss';
+@import './components/app-header.scss';
 
 // // VIEWS
 
 @import './views/about.scss';
 @import './views/catalog.scss';
 @import './views/home.scss';
+@import './views/game-details.scss';

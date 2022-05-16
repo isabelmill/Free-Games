@@ -1,0 +1,18 @@
+.app-header {
+    background-color: #020120;
+    padding: 0 12px 0 0;
+    .logo{
+        display: flex;
+        align-items: center;
+        font-weight: 600;
+        color: white;
+        p{
+            padding-top: 3px;
+        }
+        img{
+            width: 65px;
+            height: 65px;
+        }
+    }
+
+}
